@@ -24,6 +24,10 @@
       "description": "Provider to use provision, eg virtualbox",
       "type": "Optional[String[1]]"
     },
+    "ip": {
+      "description": "IP Address Eg 192.168.100.100",
+      "type": "Optional[String[1]]"
+    },
     "cpus": {
       "description": "Number of CPUs. Eg 2",
       "type": "Optional[Integer]"
